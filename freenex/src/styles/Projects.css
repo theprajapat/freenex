@@ -1,0 +1,117 @@
+.projects {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.projects-list {
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  background-color: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.join-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  background-color: #45a049;
+}
+
+.pitch-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.new-project-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.new-project-form input,
+.new-project-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.new-project-form textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.submit-btn svg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 1rem;
+  }
+
+  .projects-title, .pitch-title {
+    font-size: 1.5rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .new-project-form input,
+  .new-project-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .submit-btn {
+    font-size: 0.9rem;
+  }
+}
