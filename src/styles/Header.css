@@ -1,0 +1,49 @@
+/* Header.css */
+.header {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .header-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between; /* Ensures title on the left and nav-links on the right */
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #9AD2CB; /* Matches theme */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link svg {
+    margin-right: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .nav-link:hover {
+    background-color: #4CAF50; /* Custom hover color */
+  }
+  

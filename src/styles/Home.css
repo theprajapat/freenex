@@ -1,0 +1,64 @@
+/* Home.css */
+.home {
+  background-image: url('../images/background.avif'); /* Replace with your chosen image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #9AD2CB;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.tagline {
+  font-size: 1.8rem;
+  margin: 15px 0;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.6);
+}
+
+.description {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-bottom: 20px;
+  color: #fcfafa;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.login-btn {
+  background-color: #3a8dff;
+}
+
+.signup-btn {
+  background-color: #5cc1a5;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
